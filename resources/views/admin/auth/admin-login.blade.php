@@ -1,4 +1,4 @@
-<form class="mb-3" wire.submit.prevent="submit">
+<form class="mb-3" wire:submit.prevent="submit">
     <div class="mb-3" style="direction: rtl;">
         <label for="username" class="form-label">أسم المستخدم</label>
         <input type="text" class="form-control" id="username" wire:model="username" placeholder="أدخل أسم المستخدم"
